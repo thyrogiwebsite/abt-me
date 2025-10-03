@@ -1,0 +1,75 @@
+/* global */
+html {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(0, 0, 0);
+}
+
+.linkless {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* navigation bar */
+.navList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style-type: none;
+    
+    padding: 25px;
+    margin: 0;
+
+    background-color: #131314;
+    color: white;
+}
+
+.navItem:hover {
+    transform: scale(1.25);
+    transition: 250ms;
+}
+
+.currentPage {
+    color: aqua;
+}
+
+
+/* sidebar */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    max-width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    background-color: #0c0b0c;
+}
+
+.quote {
+    font-size: 0.75em;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+}
+
+/* main */
+
+
+/* projects */
+
+
+/* blog */
+
+
+/* doing now */
+
