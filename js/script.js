@@ -20,7 +20,8 @@ function playJoke() {
                 "só pq ta certo n quer dizer q ta errado - thyrogi",
                 "PEGA NO MEU EGOISTA! - thyrogi",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA - thyrogi",
-                "eita - thyrogi"
+                "eita - thyrogi",
+                "zzzzz - thyrogi"
             ];
         
             const theQuote = quotes[Math.floor(Math.random() * quotes.length)];

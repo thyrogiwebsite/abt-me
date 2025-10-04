@@ -57,6 +57,8 @@ main {
     border: black solid 1px;
     border-radius: 10px;
     background-color: rgb(32, 31, 34);
+
+    transition: 150ms;
 }
 .button:hover {
     background-color: rgb(44, 42, 48);
@@ -76,6 +78,10 @@ main {
     margin: 0;
 
     background-color: #131314;
+}
+
+.navItem {
+    transition: 250ms;
 }
 
 .navItem:hover {
@@ -136,6 +142,8 @@ main {
     width: 500px;
     height: 700px;
     overflow: hidden;
+
+    transition: 250ms;
 }
 .container:hover {
     transform: scale(1.125);
@@ -147,6 +155,8 @@ main {
     object-fit: cover;
     display: block;
     margin: 0 auto;
+
+    transition: 250ms;
 }
 .cover:hover {
     opacity: 0.85;
@@ -224,6 +234,13 @@ main {
 }
 
 /* project projects */
+.newslike-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5rem;
+    text-align: justify;
+
+    margin: 60px;
+}
 
 /* blog */
 
