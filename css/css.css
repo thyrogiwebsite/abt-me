@@ -47,6 +47,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Worksy';
+    src: url('fonts/Worksy.ttf') format('trueType');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arpine';
+    src: url('fonts/CF\ Arpine\ Demo.ttf') format('trueType');
+    font-weight: lighter;
+    font-style: normal;
+}
 
 
 html {
@@ -266,9 +278,9 @@ main {
 
     text-shadow: 0px 0px 10px #00bbff;
 }
-.DLBY-title {
-    font-family: 'Loscarlo', Arial, sans-serif;
-    font-size: 3.5em;
+.extractivism-title {
+    font-family: 'Vanio Trial', Arial, sans-serif;
+    font-size: 3.2em;
     padding: 0;
     margin: 20px;
 
@@ -276,8 +288,8 @@ main {
 
     pointer-events: none;
 }
-.extractivism-title {
-    font-family: 'Vanio Trial', Arial, sans-serif;
+.DLBY-title {
+    font-family: 'Loscarlo', Arial, sans-serif;
     font-size: 3.5em;
     padding: 0;
     margin: 20px;
@@ -316,6 +328,16 @@ main {
 
     pointer-events: none;
 }
+.UEH-title {
+    font-family: 'Worksy', Arial, sans-serif;
+    font-size: 5.5em;
+    padding: 0;
+    margin: 20px;
+
+    text-align: center;
+
+    pointer-events: none;
+}
 
 .minesweeper-title {
     font-family: 'Memsmark', Arial, sans-serif;
@@ -330,6 +352,16 @@ main {
 .penumbra-title {
     font-family: 'Determination', Arial, sans-serif;
     font-size: 4em;
+    padding: 0;
+    margin: 20px;
+
+    text-align: center;
+
+    pointer-events: none;
+}
+.TTdC-title {
+    font-family: 'Arpine', Arial, sans-serif;
+    font-size: 2.5em;
     padding: 0;
     margin: 20px;
 
@@ -378,4 +410,3 @@ main {
 
 
 /* doing now */
-
