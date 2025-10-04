@@ -32,10 +32,8 @@ function playJoke() {
             }
         }
         randomQuote();
-        // Prevent quote change if song is playing
         document.getElementById("quote-box").onclick = function() {
             const audio = document.getElementById("rickrolled");
-            // If audio is not playing, allow quote change
             if (audio.paused) {
                 randomQuote();
             }
