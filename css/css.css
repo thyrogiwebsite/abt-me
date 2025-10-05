@@ -1,31 +1,13 @@
 /* global */
 @font-face {
-    font-family: 'Hawking Boen';
-    src: url('fonts/Hawking Bowen.otf') format('openType');
-    font-weight: normal;
+    font-family: 'Arpine';
+    src: url('fonts/CF\ Arpine\ Demo.ttf') format('trueType');
+    font-weight: lighter;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Vanio Trial';
-    src: url('fonts/Vanio Trial-Regular.ttf') format('trueType');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Memsmark';
-    src: url('fonts/Memsmark!\ Demo.ttf') format('trueType');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'VCR OSD Mono';
-    src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('trueType');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Rosellia';
-    src: url('fonts/Rosellia.otf') format('openType');
+    font-family: 'Crystal Universe';
+    src: url('fonts/CrystalUniverse-Regular.ttf') format('trueType');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,8 +18,20 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Crystal Universe';
-    src: url('fonts/CrystalUniverse-Regular.ttf') format('trueType');
+    font-family: 'Edges';
+    src: url('fonts/Edges.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fantasm and Secrets';
+    src: url('fonts/Fantasm\ and\ Secrets.ttf') format('trueType');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hawking Boen';
+    src: url('fonts/Hawking Bowen.otf') format('openType');
     font-weight: normal;
     font-style: normal;
 }
@@ -48,14 +42,44 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Worksy';
-    src: url('fonts/Worksy.ttf') format('trueType');
+    font-family: 'Memsmark';
+    src: url('fonts/Memsmark!\ Demo.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nordminne';
+    src: url('fonts/NordminneScript_PERSONAL_USE_ONLY.otf') format('openType');
     font-weight: lighter;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Arpine';
-    src: url('fonts/CF\ Arpine\ Demo.ttf') format('trueType');
+    font-family: 'Rosellia';
+    src: url('fonts/Rosellia.otf') format('openType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vanio Trial';
+    src: url('fonts/Vanio Trial-Regular.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Windows';
+    src: url('fonts/windows-bold[1].ttf') format('trueType');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Worksy';
+    src: url('fonts/Worksy.ttf') format('trueType');
     font-weight: lighter;
     font-style: normal;
 }
@@ -231,6 +255,26 @@ main {
 
     z-index: 2;
 }
+.GenreTag {
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+
+    color: white;
+
+    padding: 5px 10px;
+    
+    pointer-events: none;
+
+    z-index: 2;
+}
+
 
 .container:hover {
     transform: scale(1.05);
@@ -268,7 +312,7 @@ main {
 
 .egoistMachine-title {
     font-family: 'Hawking Bowen', Arial, sans-serif;
-    font-size: 4em;
+    font-size: 4.5em;
     padding: 0;
     margin: 20px;
 
@@ -331,6 +375,26 @@ main {
 .UEH-title {
     font-family: 'Worksy', Arial, sans-serif;
     font-size: 5.5em;
+    padding: 0;
+    margin: 20px;
+
+    text-align: center;
+
+    pointer-events: none;
+}
+.favorita-title {
+    font-family: 'Fantasm and Secrets', Arial, sans-serif;
+    font-size: 3.5em;
+    padding: 0;
+    margin: 20px;
+
+    text-align: center;
+
+    pointer-events: none;
+}
+.BVV-title {
+    font-family: 'Edges', Arial, sans-serif;
+    font-size: 3em;
     padding: 0;
     margin: 20px;
 
