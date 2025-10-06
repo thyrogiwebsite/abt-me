@@ -66,8 +66,14 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Rosellia';
-    src: url('fonts/Rosellia.otf') format('opentype');
+    font-family: 'Arpine';
+    src: url('fonts/CF\ Arpine\ Demo.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PT_Serif.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -504,4 +510,5 @@ main.centered {
 
 
 /* doing now */
+
 
