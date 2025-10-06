@@ -61,7 +61,7 @@
 }
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/determination.ttf') format('truetype');
+    src: url('fonts/PoppinsRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -504,3 +504,4 @@ main.centered {
 
 
 /* doing now */
+
