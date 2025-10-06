@@ -48,6 +48,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'Mostly Bright';
+    src: url('fonts/Mostly\ Bright\ Sans.otf') format('openType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Nordminne';
     src: url('fonts/NordminneScript_PERSONAL_USE_ONLY.otf') format('openType');
     font-weight: lighter;
@@ -375,6 +381,16 @@ main {
 .UEH-title {
     font-family: 'Worksy', Arial, sans-serif;
     font-size: 5.5em;
+    padding: 0;
+    margin: 20px;
+
+    text-align: center;
+
+    pointer-events: none;
+}
+.UEHBook-title {
+    font-family: 'Mostly Bright', Arial, sans-serif;
+    font-size: 4em;
     padding: 0;
     margin: 20px;
 
