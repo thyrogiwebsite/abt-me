@@ -1,91 +1,97 @@
 /* global */
 @font-face {
     font-family: 'Arpine';
-    src: url('fonts/CF\ Arpine\ Demo.ttf') format('trueType');
+    src: url('fonts/CF\ Arpine\ Demo.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
 @font-face {
     font-family: 'Crystal Universe';
-    src: url('fonts/CrystalUniverse-Regular.ttf') format('trueType');
+    src: url('fonts/CrystalUniverse-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Determination';
-    src: url('fonts/determination.ttf') format('trueType');
+    src: url('fonts/determination.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Edges';
-    src: url('fonts/Edges.ttf') format('trueType');
+    src: url('fonts/Edges.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Fantasm and Secrets';
-    src: url('fonts/Fantasm\ and\ Secrets.ttf') format('trueType');
+    src: url('fonts/Fantasm\ and\ Secrets.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
 @font-face {
     font-family: 'Hawking Bowen';
-    src: url('fonts/Hawking Bowen.otf') format('openType');
+    src: url('fonts/Hawking Bowen.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Loscarlo';
-    src: url('fonts/Loscarlo.otf') format('openType');
+    src: url('fonts/Loscarlo.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Memsmark';
-    src: url('fonts/Memsmark!\ Demo.ttf') format('trueType');
+    src: url('fonts/Memsmark!\ Demo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Mostly Bright';
-    src: url('fonts/Mostly\ Bright\ Sans.otf') format('openType');
+    src: url('fonts/Mostly\ Bright\ Sans.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Nordminne';
-    src: url('fonts/NordminneScript_PERSONAL_USE_ONLY.otf') format('openType');
+    src: url('fonts/NordminneScript_PERSONAL_USE_ONLY.otf') format('opentype');
     font-weight: lighter;
     font-style: normal;
 }
 @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/determination.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Rosellia';
-    src: url('fonts/Rosellia.otf') format('openType');
+    src: url('fonts/Rosellia.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vanio Trial';
-    src: url('fonts/Vanio Trial-Regular.ttf') format('trueType');
+    src: url('fonts/Vanio Trial-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'VCR OSD Mono';
-    src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('trueType');
+    src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Windows';
-    src: url('fonts/windows-bold[1].ttf') format('trueType');
+    src: url('fonts/windows-bold[1].ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
 @font-face {
     font-family: 'Worksy';
-    src: url('fonts/Worksy.ttf') format('trueType');
+    src: url('fonts/Worksy.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
@@ -108,11 +114,14 @@ main {
     display: flex;
     align-items: flex-start;
 
-    justify-content: center;
+    justify-content: flex-start;
 
     padding: 60px;
     padding-left: 0px;
     padding-top: 0px;
+}
+main.centered {
+    justify-content: center;
 }
 
 .linkless {
@@ -478,6 +487,11 @@ main {
 
 }
 
+.macintosh-ProjectTitle {
+    font-size: 5em;
+    font-family: 'VCR OSD Mono', Arial, sans-serif; 
+}
+
 .newslike-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5rem;
@@ -490,4 +504,3 @@ main {
 
 
 /* doing now */
-
