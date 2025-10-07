@@ -72,6 +72,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'Rosellia';
+    src: url('fonts/Rosellia.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Vanio Trial';
     src: url('fonts/Vanio Trial-Regular.ttf') format('truetype');
     font-weight: normal;
